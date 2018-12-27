@@ -43,7 +43,7 @@ Depends: R (>= 3.0.2)
 LinkingTo: Rcpp (>= 0.11.0), RcppArmadillo, BH
 Imports: stats, graphics, utils, methods, abind, graph, RBGL, igraph,
         ggm, corpcor, robustbase, vcd, Rcpp, bdsmatrix, sfsmisc (>=
-        1.0-26), fastICA, clue, dagitty
+        1.0-26), fastICA, clue
 Suggests: MASS, Matrix, Rgraphviz, mvtnorm, huge, ggplot2
 ByteCompile: yes
 NeedsCompilation: yes

@@ -71,7 +71,6 @@ importFrom("sfsmisc", digitsBase, is.whole)
 
 importFrom("fastICA", fastICA)
 importFrom("clue", solve_LSAP)
-importFrom("dagitty", dagitty, isAdjustmentSet, adjustmentSets)
 ###----- Exports ------------------------------------------------------
 
 export(getGraph)# our S4 generic including methods
@@ -152,7 +151,6 @@ export(trueCov,
        pdag2allDags,
        possDe,
        possAn,
-       pcalg2dagitty,
        addBgKnowledge,
        adjustment,
        isValidGraph,
